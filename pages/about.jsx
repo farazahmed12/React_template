@@ -1,6 +1,6 @@
-import dynamic from 'next/dynamic';
- 
-const Counter = dynamic(() => import('@/src/components/Counter'), {
+import dynamic from "next/dynamic";
+
+const Counter = dynamic(() => import("@/src/components/Counter"), {
   ssr: false,
 });
 import Layout from "@/src/layout/Layout";
@@ -9,7 +9,7 @@ import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 const About = () => {
   return (
-    <Layout>
+    <Layout singleMenu={true}>
       {/* Page Banner Section Start */}
       <section
         className="page-banner pt-210 rpt-150 pb-45 rpb-50 rel z-1"

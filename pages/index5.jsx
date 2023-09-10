@@ -10,7 +10,7 @@ const Counter = dynamic(() => import("@/src/components/Counter"), {
 });
 const index5 = () => {
   return (
-    <Layout footer={5} header={5}>
+    <Layout footer={5} header={5} singleMenu={true}>
       <Home5Slider />
       {/* Slider Section End */}
       {/* Client Logo Two start */}

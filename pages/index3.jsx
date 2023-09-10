@@ -11,7 +11,7 @@ const Counter = dynamic(() => import("@/src/components/Counter"), {
 
 const Index3 = () => {
   return (
-    <Layout header={2} footer={3}>
+    <Layout header={2} footer={3} singleMenu={true}>
       {/* Hero Section Start */}
       <section className="hero-area-three pt-250 rpt-115 rel z-1">
         <div className="container rel z-1">

@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Nav, Tab } from "react-bootstrap";
 const ProductDetails = () => {
   return (
-    <Layout>
+    <Layout singleMenu={true}>
       {/* Page Banner Start */}
       <PageBanner pageName={"Single Product"} />
       {/* Page Banner End */}

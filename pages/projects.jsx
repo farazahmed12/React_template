@@ -3,7 +3,7 @@ import Layout from "@/src/layout/Layout";
 import Link from "next/link";
 const Projects = () => {
   return (
-    <Layout>
+    <Layout singleMenu={true}>
       {/* Page Banner Start */}
       <PageBanner pageName={"Project Grid"} />
       {/* Page Banner End */}

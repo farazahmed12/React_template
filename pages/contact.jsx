@@ -2,7 +2,7 @@ import PageBanner from "@/src/components/PageBanner";
 import Layout from "@/src/layout/Layout";
 const Contact = () => {
   return (
-    <Layout>
+    <Layout singleMenu={true}>
       {/* Page Banner Start */}
       <PageBanner pageName={"Contact"} />
       {/* Page Banner End */}

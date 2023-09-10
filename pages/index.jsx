@@ -1,19 +1,26 @@
+"use client";
 import dynamic from "next/dynamic";
 
 const Counter = dynamic(() => import("@/src/components/Counter"), {
   ssr: false,
 });
+import React, { useEffect } from "react";
 import Layout from "@/src/layout/Layout";
 import { sliderProps } from "@/src/sliderProps";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
+import "@/styles/globals.css";
+import Head from "next/head";
+import PreLoader from "@/src/layout/PreLoader";
 
-const Index = () => {
+const Page = () => {
+  useEffect(() => {
+    console.log("sss");
+  }, []);
   return (
-    <Layout>
-      {/* <h1>sdsadada</h1> */}
+    <Layout singleMenu>
       {/* Hero Section Start */}
-      <section className="hero-area pt-185 rpt-150 rel z-1">
+      <section id="home" className="hero-area pt-185 rpt-150 rel z-1">
         <div className="container">
           <div className="row">
             <div className="col-lg-8">
@@ -55,7 +62,7 @@ const Index = () => {
       </section>
       {/* Hero Section End */}
       {/* About Us Area start */}
-      <section className="about-area pt-130 rpt-100 rel z-1">
+      <section id="about" className="about-area pt-130 rpt-100 rel z-1">
         <div className="container">
           <div className="row justify-content-between">
             <div className="col-xl-5 col-lg-3">
@@ -219,7 +226,10 @@ const Index = () => {
       </div>
       {/* Statistics Area end */}
       {/* Service Style Three start */}
-      <section className="service-three-area pt-70 rpt-40 rel z-1">
+      <section
+        id="services"
+        className="service-three-area pt-70 rpt-40 rel z-1"
+      >
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-7">
@@ -330,7 +340,10 @@ const Index = () => {
       </div>
       {/* Headline Area end */}
       {/* Project Timeline Area start */}
-      <section className="project-timeline-area pt-90 rpt-75 rel z-1">
+      <section
+        id="projects"
+        className="project-timeline-area pt-90 rpt-75 rel z-1"
+      >
         <div className="container container-1290">
           <div className="row justify-content-between align-items-center pb-25">
             <div className="col-xl-6 col-lg-8">
@@ -420,7 +433,7 @@ const Index = () => {
       </section>
       {/* Project Timeline Area end */}
       {/* Team Area start */}
-      <section className="team-area pt-70 rpt-40">
+      <section id="team" className="team-area pt-70 rpt-40">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-9">
@@ -639,7 +652,7 @@ const Index = () => {
       </div>
       {/* Headline Area end */}
       {/* Pricing style three start */}
-      <section className="pricing-area-three pt-85">
+      <section id="pricing" className="pricing-area-three pt-85">
         <div className="container container-1290">
           <div className="row justify-content-center">
             <div className="col-xl-8 col-lg-10">
@@ -845,7 +858,10 @@ const Index = () => {
       </div>
       {/* Headline Area end */}
       {/* Testimonial Area start */}
-      <section className="testimonials-three-area pt-95 rpt-70">
+      <section
+        id="testimonials"
+        className="testimonials-three-area pt-95 rpt-70"
+      >
         <div className="container container-1260">
           <div className="row gap-120 align-items-center">
             <div className="col-lg-6">
@@ -998,7 +1014,7 @@ const Index = () => {
 
       {/* Testimonial Area end */}
       {/* Blog Style Two start */}
-      <section className="blog-area-two pt-125 rpt-100 pb-70 rpb-40">
+      <section id="news" className="blog-area-two pt-125 rpt-100 pb-70 rpb-40">
         <div className="container container-1290">
           <div className="row justify-content-center">
             <div className="col-xl-8 col-lg-10">
@@ -1105,4 +1121,5 @@ const Index = () => {
     </Layout>
   );
 };
-export default Index;
+
+export default Page;

@@ -3,7 +3,7 @@ import Layout from "@/src/layout/Layout";
 import Link from "next/link";
 const Pricing = () => {
   return (
-    <Layout>
+    <Layout singleMenu={true}>
       {/* Page Banner Start */}
       <PageBanner pageName={"Pricing Plan"} />
       {/* Page Banner End */}

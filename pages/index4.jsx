@@ -20,7 +20,7 @@ const Index4 = () => {
   ];
   const [active, setActive] = useState("collapse0");
   return (
-    <Layout header={2} footer={4}>
+    <Layout header={2} footer={4} singleMenu={true}>
       {/* Hero Section Start */}
       <section className="hero-area-four pt-250 rpt-120 pb-220 rpb-100 rel z-1">
         <div className="container container-1620 rel z-1">

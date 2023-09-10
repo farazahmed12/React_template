@@ -1,6 +1,6 @@
-import dynamic from 'next/dynamic';
- 
-const Counter = dynamic(() => import('@/src/components/Counter'), {
+import dynamic from "next/dynamic";
+
+const Counter = dynamic(() => import("@/src/components/Counter"), {
   ssr: false,
 });
 import Layout from "@/src/layout/Layout";
@@ -10,7 +10,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 const IndexSingle = () => {
   return (
-    <Layout singleMenu>
+    <Layout singleMenu={true}>
       {/* Hero Section Start */}
       <section id="home" className="hero-area pt-185 rpt-150 rel z-1">
         <div className="container">

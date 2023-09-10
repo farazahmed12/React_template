@@ -12,7 +12,7 @@ const Faqs = () => {
   ];
   const [active, setActive] = useState("collapse0");
   return (
-    <Layout>
+    <Layout singleMenu={true}>
       {/* Page Banner Start */}
       <PageBanner pageName={"Faqs"} />
       {/* Page Banner End */}

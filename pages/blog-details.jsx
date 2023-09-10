@@ -2,7 +2,7 @@ import Layout from "@/src/layout/Layout";
 import Link from "next/link";
 const BlogDetails = () => {
   return (
-    <Layout>
+    <Layout singleMenu={true}>
       {/* Page Banner Start */}
       <section
         className="page-banner-area overlay pt-250 pb-50 rel z-1 bgs-cover"

@@ -4,7 +4,7 @@ import Layout from "@/src/layout/Layout";
 import Link from "next/link";
 const Team = () => {
   return (
-    <Layout>
+    <Layout singleMenu={true}>
       {/* Page Banner Start */}
       <PageBanner pageName={"Expert Team"} />
       {/* Page Banner End */}

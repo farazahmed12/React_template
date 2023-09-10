@@ -12,7 +12,7 @@ const ServiceDetails = () => {
   ];
   const [active, setActive] = useState("collapse0");
   return (
-    <Layout>
+    <Layout singleMenu={true}>
       {/* Page Banner Section Start */}
       <section
         className="page-banner pt-210 rpt-150 pb-25 rel z-1"
