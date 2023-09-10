@@ -1,0 +1,28 @@
+{
+  "cssImports": {
+    "C:\\Users\\maste\\Desktop\\ReactTemplate\\src\\app\\abc\\page.js": [
+      "C:\\Users\\maste\\Desktop\\ReactTemplate\\styles\\globals.css",
+      "C:\\Users\\maste\\Desktop\\ReactTemplate\\public\\assets\\css\\bootstrap.min.css",
+      "C:\\Users\\maste\\Desktop\\ReactTemplate\\public\\assets\\css\\flaticon.min.css",
+      "C:\\Users\\maste\\Desktop\\ReactTemplate\\public\\assets\\css\\fontawesome-5.14.0.min.css",
+      "C:\\Users\\maste\\Desktop\\ReactTemplate\\public\\assets\\css\\magnific-popup.min.css",
+      "C:\\Users\\maste\\Desktop\\ReactTemplate\\public\\assets\\css\\nice-select.min.css",
+      "C:\\Users\\maste\\Desktop\\ReactTemplate\\public\\assets\\css\\animate.min.css",
+      "C:\\Users\\maste\\Desktop\\ReactTemplate\\public\\assets\\css\\slick.min.css",
+      "C:\\Users\\maste\\Desktop\\ReactTemplate\\public\\assets\\css\\style.css"
+    ]
+  },
+  "cssModules": {
+    "C:\\Users\\maste\\Desktop\\ReactTemplate\\src\\app\\abc\\page": [
+      "C:\\Users\\maste\\Desktop\\ReactTemplate\\styles\\globals.css",
+      "C:\\Users\\maste\\Desktop\\ReactTemplate\\public\\assets\\css\\bootstrap.min.css",
+      "C:\\Users\\maste\\Desktop\\ReactTemplate\\public\\assets\\css\\flaticon.min.css",
+      "C:\\Users\\maste\\Desktop\\ReactTemplate\\public\\assets\\css\\fontawesome-5.14.0.min.css",
+      "C:\\Users\\maste\\Desktop\\ReactTemplate\\public\\assets\\css\\magnific-popup.min.css",
+      "C:\\Users\\maste\\Desktop\\ReactTemplate\\public\\assets\\css\\nice-select.min.css",
+      "C:\\Users\\maste\\Desktop\\ReactTemplate\\public\\assets\\css\\animate.min.css",
+      "C:\\Users\\maste\\Desktop\\ReactTemplate\\public\\assets\\css\\slick.min.css",
+      "C:\\Users\\maste\\Desktop\\ReactTemplate\\public\\assets\\css\\style.css"
+    ]
+  }
+}
